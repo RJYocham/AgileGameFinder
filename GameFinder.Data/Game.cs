@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace GameFinder.Data
 {
-    public class Class1
+    public class Game
     {
+        public int GameId { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
     }
 }
